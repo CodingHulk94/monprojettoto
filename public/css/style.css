@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+li{
+  display: block;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+#formdiv{
+  height: 100px;
+  display: flex;
+  align-content: center;
+}
+
+#userconnect{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#userconnect>li{
+  color: white;
+}
+/******* MAIN ********/
+#studentslist{
+  display: block;
+  height: auto;
+}
+/***** FOOTER *******/
+
+footer{
+  background-color: #5555FF;
+  text-align: center;
+}
+
+p{
+  color: white;
+}
