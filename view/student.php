@@ -1,4 +1,4 @@
-
+<!-- this is a comment made by kevin -->
 
   <?php if (isset($_SESSION['userRole']) && $_SESSION['userRole'] == 'admin') : ?>
   <a class="btn btn-success" href="edit.php?editID=<?=$studentID?>">Modifier</a>
